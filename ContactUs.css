@@ -1,0 +1,78 @@
+/***************CONTACT FORM STYLING***********/
+
+#form {
+    float: right;
+    margin-right: 1px;
+    padding-left: 25px;
+    padding-right: 12px;
+}
+
+#contactUs {
+    padding-left: 7em;
+}
+
+.mytext {
+    width: 615px;
+    height: 103px;
+}
+
+#form p {
+    color: black;
+    font-family: Century Gothic, sans-serif;
+}
+
+#address {
+    float: left;
+    height: 100%;
+    padding: 10px;
+    width: 50%;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: white;
+}
+
+#address p {
+    color: black;
+    font-family: Century Gothic, sans-serif;
+}
+
+#reserved {
+    float: right;
+    background-color: green;
+}
+
+input[type=checkbox] {
+   vertical-align: top;
+    align-content: center;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+}
+
+#secondForm p {
+    padding-top: 20px;
+    font-family: Century Gothic, sans-serif;
+    color: red;
+}
+
+input[type=email] {
+    padding: 10px;
+    width: 40%;
+}
+
+input[type=text] {
+    padding: 3px;
+    width: 40%;
+}
+
+#messageStyle p {
+    font-family: Century Gothic, sans-serif;
+}
+
+#return a {
+    font-family: Century Gothic, sans-serif;
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <!--<link href="javascript.js" rel="stylesheet" type="text/javascript">-->
+
+    <link rel="stylesheet" type="text/css" href="ContactUs.css">
+    <script src="http://code.jquery.com/jquery-2.1.0.js"></script>
+    <script src="javascript.js"></script>
+</head>
+
+<body class="wrapper">
+    <div id="mainbody">
+        <!--    MAIN HEADER   -->
+        <header>
+            <div id="headerLogo">
+                <a href="http://www.facebook.com"><img src="facebook.jpg" alt="follow us on Facebook" style="width:30px;height:30px;"></a>
+                <a href="http://www.twitter.com"><img src="Twitter.jpg" alt="follow us on twitter" style="width:30px;height:30px;"></a>
+                <a href="http://www.instagram.com"><img src="instagram.jpg" alt="follow us on instagram" style="width:30px;height:30px;"></a>
+                <a href="http://www.tumblr.com"><img src="tumblr.png" alt="follow us on tumblr" style="width:30px;height:30px;"></a>
+            </div>
+            <div id="headerAcc"> <a href="#">ACCOUNT | </a> <a href="#">WISHLIST <img src="chart.png" alt="shopping list" style="width:20px;height:25px;"></a> </div>
+        </header>
+        <div id="welcomePic">
+            <a href="#"><img src="Logo.jpg" alt="pic"></a>
+        </div>
+        <nav>
+            <ul id="nav_menu">
+                <li><a href="index.html"><h5>HOME</h5></a></li>
+                <li><a href="MenWear.html"><h5>MEN'S WEAR</h5></a></li>
+                <li><a href="WomenWear.html"><h5>WOMEN'S WEAR</h5></a></li>
+                <li><a href="Gallery.html"><h5>GALLERY</h5></a></li>
+            </ul>
+        </nav>
+        <div class="clear"></div>
+        <fieldset>
+            <legend> <strong>Contact Us</strong></legend>
+            <div id="address">
+                <p><b>ADDRESS</b></p>
+                <br>
+                <p> <b>Please feel free to contact us on anything.
+            We love hearing from our customers <br>or any one showing interest in our brand and movement.</b>
+                    <br>
+                    <br> <b> WAREHOUSE ADDRESS <br><br>
+     Charlotte, United States<br><br>
+
+    Email : zillaa12@gmail.com<br><br>
+
+        Phone : +1-336-478-7966</b></p>
+                <br>
+                <p><strong>Follow Us</strong></p>
+                <a href="http://www.facebook.com"><img src="facebook.jpg" alt="follow us on Facebook" style="width:30px;height:30px;"></a>
+                <a href="http://www.twitter.com"><img src="Twitter.jpg" alt="follow us on twitter" style="width:30px;height:30px;"></a>
+                <a href="http://www.instagram.com"><img src="instagram.jpg" alt="follow us on instagram" style="width:30px;height:30px;"></a>
+                <a href="http://www.tumblr.com"><img src="tumblr.png" alt="follow us on tumblr" style="width:30px;height:30px;"></a>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div id="secondForm">
+                    <form method="post" name="subscribeForm" action="alert.php">
+                        <P><strong>SUBSCRIBE TO OUR NEWSLETTERS</strong></P>
+                        <input type="email" name="email" placeholder="Enter your email to subscribe" required>
+                        <br>
+                        <br>
+                        <button type="submit" class="subscribe-submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div id="form">
+                <P> <b>Send Us an Email</b></P>
+                <form method="post" name="contactForm" action="alert.php"> 
+                    Name
+                    <br>
+                    <input type="text" name="name" id="nameCookie" required/>
+                    <br>
+                    <br> Are you a Male or Female?
+                    <br>
+                    <input type="radio" name="sex" value="male" id="sexCookie1" required/> MALE
+                    <br>
+                    <input type="radio" name="sex" value="female" id="sexCookie2" required/> FEMALE
+                    <br>
+                    <br>
+                    <br>
+                    <p class="Area"><strong>Area of Interest</strong></p>
+                    <label class="check" for="MensCloth">Men Clothing</label>
+                    <input id="MensCloth" class="checkbox" type="checkbox" name="Men" value="adoption">
+                    <br>
+                    <label class="check" for="WomensCloth">Women Clothing</label>
+                    <input id="WomensCloth" class="checkbox" type="checkbox" name="Women" value="volunteering">
+                    <br>
+                    <br> Email
+                    <br>
+                    <input type="text" name="email" id="emailCookie" required/>
+                    <br>
+                    <br> Message
+                    <br>
+                    <textarea name="message" class="mytext" placeholder="Enter your message" required></textarea>
+                    <br>
+                    <br>
+                    <input type="submit" value="Submit" onclick="setCookie()"/>
+                   
+                    
+                </form>
+            </div>
+        </fieldset>
+        <div class="clear"></div>
+        <footer>
+            <div class="footerSection">
+                <nav id="First_menu">
+                    <ul class="footer-nav">
+                        <li>
+                            <p><u><strong>HELP</strong></u></p>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>FAQ</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>PRIVACY POLICY</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>REFUND POLICY</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="terms.html">
+                                <p>TERM & CONDITIONS</p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav id="Second_menu">
+                    <ul class="footer-nav">
+                        <li>
+                            <p><u><strong>SOCIAL</strong></u></p>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/">
+                                <p>FACEBOOK</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/">
+                                <p>TWITTER</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/">
+                                <p>INSTAGRAM</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.tumblr.com/">
+                                <p>TUMBLR</p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav id="Third_menu">
+                    <ul class="footer-nav">
+                        <li>
+                            <p><u><strong>HANK CLOTHS</strong></u></p>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>ABOUT</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contactUs.html">
+                                <p>FORM</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Product.html">
+                                <p>PRODUCT SERVICE</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>DOWNLOAD</p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="clear"></div>
+                <div id="footer">Copyright &copy; Eugene</div>
+            </div>
+            <div id="validator"> <a href="http://validator.w3.org/check?uri=referer">Validate HTML</a> <a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a> </div>
+        </footer>
+    </div>
+</body>
+
+</html>
